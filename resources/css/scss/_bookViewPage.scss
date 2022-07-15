@@ -1,0 +1,50 @@
+.bookViewPage{
+    min-height:140vh;
+    .row {
+        .card{
+            position: relative;
+            .card-body{
+                height:360px;
+                .card-text{
+                    
+                }
+                .btn-row{
+                    position: absolute;
+                    bottom:10px;
+                    
+                }
+            }
+            
+        }
+    }
+    .single__book{
+        min-height:130vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            .book_section{
+                img{
+                    height:500px;
+                    width:80%;
+                }
+                .book_info{
+                    h2{
+                        margin-bottom: 20px;
+                        span{
+                            color: rgb(138, 138, 138);
+                            }
+                        }
+                    h3{
+                        margin-bottom: 20px;
+                        span{
+                            color: rgb(138, 138, 138);
+                            }
+                    }
+                    p{
+                        font-size: 23px;
+                        padding-top:10px;
+                    }
+                }
+            }  
+    }
+}
